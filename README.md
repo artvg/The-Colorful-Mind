@@ -1,4 +1,4 @@
-# The Colorful Mind 🎨🧠
+# The Colorful Mind
 
 This project is a Python-based final project created for Code in Place 2025. It lets users explore the emotional and symbolic meanings of colors through:
 
@@ -22,4 +22,4 @@ Cultural Note
 
 Final Thought
 
-- Give it a try, This project was made with love and care 💜
+- Give it a try, This project was made with love and care.
