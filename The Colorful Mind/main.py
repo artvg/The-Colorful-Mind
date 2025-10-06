@@ -11,18 +11,18 @@ def main():
 
         # Show what the color means
         emotion = get_emotion(color)
-        print(f"\n🧠 The color {color.capitalize()} is often linked to: {emotion}.")
+        print(f"\nThe color {color.capitalize()} is often linked to: {emotion}.")
 
         #Show a fun zodiac fact for that color
         print(f"\n{get_zodiac_fact(color)}")
 
         # Show a quote by Sor Juana that fits the color       
-        print("\n📜 Here’s a beautiful quote by Sor Juana that reflects this color:\n")
+        print("\nHere’s a beautiful quote by Sor Juana that reflects this color:\n")
         print(get_poetry(color))
 
         # Ask if the user wants to play again
         if input("\nWould you like to explore another color? (yes/no): ").strip().lower() != "yes":
-            print("\n🌈 Tank you for exploring The Colorful Mind.")
+            print("\nTank you for exploring The Colorful Mind.")
             break
 
 # Welcome message
@@ -62,7 +62,7 @@ def get_zodiac_fact(color):
     # Look up the zodiac linked to the color
     if color in ZODIAC_DATA:
         zodiac = ZODIAC_DATA[color]
-        return (f"✨ Fun Fact:\nDid you know that {color} is also linked to the zodiac sign {zodiac['sign']}?\n"
+        return (f"Fun Fact:\nDid you know that {color} is also linked to the zodiac sign {zodiac['sign']}?\n"
                 f"People born under {zodiac['sign']} are known for being {zodiac['traits']} — just like the color you chose.")
     return ""
 
