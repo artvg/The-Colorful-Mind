@@ -1,4 +1,4 @@
-# 🎨 Maps each color to its emotional meaning and tone
+# Maps each color to its emotional meaning and tone
 COLOR_DATA = {
     "red": {
         "emotions": "passion, energy, anger, love",
